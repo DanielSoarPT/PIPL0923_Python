@@ -279,3 +279,5 @@ condicao = nota.isdigit()
 while not (condicao and float(nota) >= 0 and float(nota) <= 10):
     print("Nota Inválida")
     nota = input("Introduza uma nota entre 0-10: ")
+else:
+    print("Nota válida")
